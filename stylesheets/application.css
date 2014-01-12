@@ -46,6 +46,27 @@ fieldset.collapsible.collapsed>legend:before { content: "\f0da"; font-family: Fo
 fieldset.collapsible>legend:before { content: "\f0d7"; font-family: FontAwesome; margin-right: 4px; width: 7px; display: inline-block; text-align: center; }
 fieldset.collapsible>legend,
 fieldset.collapsible.collapsed>legend { background: none; padding-left: 6px; padding-right: 6px; }
+div#content > div.flash:before { content: "\f00c"; font-family: FontAwesome; margin-right: 5px; }
+
+#admin-menu a:before, #admin-menu a:hover:before { font-family: FontAwesome; margin-right: 5px; text-decoration: none !important; width: 15px; display: inline-block; text-align: center; }
+#admin-menu a, #admin-menu a.selected { background: none !important; padding-left: 0 !important; }
+#admin-menu a.projects:before { content: "\f0ae"; }
+#admin-menu a.users:before { content: "\f007"; }
+#admin-menu a.groups:before { content: "\f0c0"; }
+#admin-menu a.roles:before { content: "\f084"; }
+#admin-menu a.trackers:before { content: "\f00b"; }
+#admin-menu a.issue-statuses:before { content: "\f110"; }
+#admin-menu a.workflows:before { content: "\f0ec"; }
+#admin-menu a.custom-fields:before { content: "\f040"; }
+#admin-menu a.enumerations:before { content: "\f03a"; }
+#admin-menu a.settings:before { content: "\f085"; }
+#admin-menu a.ldap-authentication:before { content: "\f0c1"; }
+#admin-menu a.contacts:before { content: "\f022"; }
+#admin-menu a.plugins:before { content: "\f12e"; }
+#admin-menu a.info:before { content: "\f128"; }
+#admin-menu a.reddrop:before { content: "\f16b"; }
+
+#sidebar a.selected { color: #892e2e; padding-left: 0 !important; }
 
 .icon-phone,
 .icon-email { background: none !important; }
@@ -95,3 +116,7 @@ table.list tbody tr.odd { background-color: #f8f8f8; }
 table.list tbody tr:hover { background-color: #f0f0f0 !important; }
 
 #contact_list div.contact { background: #fcfcfc; border: none; border-bottom: 1px solid #ddd; }
+
+div#content > div.flash { position: static; border-radius: 0px !important; -webkit-border-radius: 0px !important; margin-top: -6px; text-shadow: none; background-color: #DDEBBA; background-image: none; padding-left: 20px; }
+
+#content .tabs ul li a:hover { background-color: #f0f0f0; }
