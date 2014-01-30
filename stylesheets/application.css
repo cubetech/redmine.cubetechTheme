@@ -28,7 +28,8 @@ ul.projects a.project,
 tr.odd.priority-highest,
 table.list tbody tr.odd.priority-highest:hover,
 .total-hours,
-#sidebar a.selected { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
+#sidebar a.selected,
+table.plugins span.name { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
 
 a:link, #header a, #top-menu a:hover, #main-menu ul li a:hover, #context-menu a:hover, tr.context-menu-selection a, tr.context-menu-selection a:hover { color: #c44141 !important; }
 a:visited, #header a:visited, tr.context-menu-selection a:visited { color: #892e2e !important; }
