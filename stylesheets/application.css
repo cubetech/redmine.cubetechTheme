@@ -1,5 +1,5 @@
 @import url(../include/stylesheets/application.css);
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url(./font-awesome.css);
 @import url(./fonts.css);
 
 body,
@@ -23,7 +23,8 @@ b,
 th,
 #tab-content-members fieldset legend,
 #tab-content-memberships fieldset legend,
-#tab-content-users fieldset legend { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
+#tab-content-users fieldset legend,
+ul.projects a.project { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
 
 a:link, #header a, #top-menu a:hover, #main-menu ul li a:hover, #context-menu a:hover, tr.context-menu-selection a, tr.context-menu-selection a:hover { color: #c44141 !important; }
 a:visited, #header a:visited, tr.context-menu-selection a:visited { color: #892e2e !important; }
