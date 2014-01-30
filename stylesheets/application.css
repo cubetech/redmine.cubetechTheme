@@ -24,7 +24,10 @@ th,
 #tab-content-members fieldset legend,
 #tab-content-memberships fieldset legend,
 #tab-content-users fieldset legend,
-ul.projects a.project { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
+ul.projects a.project,
+tr.odd.priority-highest,
+table.list tbody tr.odd.priority-highest:hover,
+.total-hours { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
 
 a:link, #header a, #top-menu a:hover, #main-menu ul li a:hover, #context-menu a:hover, tr.context-menu-selection a, tr.context-menu-selection a:hover { color: #c44141 !important; }
 a:visited, #header a:visited, tr.context-menu-selection a:visited { color: #892e2e !important; }
