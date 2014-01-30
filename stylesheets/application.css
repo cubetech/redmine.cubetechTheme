@@ -1,8 +1,9 @@
 @import url(../include/stylesheets/application.css);
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url(//fast.fonts.net/cssapi/954fef79-5e38-4980-a4b3-cde33ff226f9.css)
 
 body,
-input { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 400; }
+input { font-family: 'HelveticaNeueW01-55Roma'; font-size: 13px; }
 #main { margin: 10px; }
 #footer { margin-top: 25px; }
 
@@ -10,7 +11,7 @@ input { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13
 #header h1 a.ancestor { font-size: 14px; }
 #header h1 a.root { font-size: 15px; }
 
-h1, h2, h3, h4 { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 300;}
+h1, h2, h3, h4 { font-family: 'HelveticaNeueW01-45Ligh'; }
 h1 { font-size: 1.7em; }
 
 a:link, #header a, #top-menu a:hover, #main-menu ul li a:hover, #context-menu a:hover, tr.context-menu-selection a, tr.context-menu-selection a:hover { color: #c44141 !important; }
@@ -112,17 +113,17 @@ div.issue table img.gravatar { display: none; }
 
 div.issue div.subject h3 { font-size: 2em; margin-bottom: -14px; margin-top: -3px; }
 div.issue img.gravatar { margin-right: 14px; width: 40px; }
-p.author { font-size: 11px; font-weight: 300; }
+p.author { font-size: 11px; font-family:'HelveticaNeueW01-45Ligh'; }
 
 #history .journal ul.details { padding: 0; padding-left: 0px; font-size: 12px; }
 #history .journal ul.details li { list-style: none; }
 #history .journal ul.details li > strong { display: inline-block; width: 150px; }
-#history .journal ul.details li > i { font-weight: 600; }
+#history .journal ul.details li > i { font-family: 'HelveticaNeueW01-75Bold'; }
 
 h4 img.gravatar { width: 16px; padding: 0; box-shadow: none; -webkit-box-shadow: none; }
 
 table.note_data td.name h4 { letter-spacing: 0px !important; }
-span.tag-label-color a, span.tag-label-color > span { font-family: Helvetica Neue, Helvetica, Arial, sans-serif !important; font-size: 12px; color: #444 !important; }
+span.tag-label-color a, span.tag-label-color > span { font-family: 'HelveticaNeueW01-55Roma' !important; font-size: 12px; color: #444 !important; }
 
 .avatar img.gravatar, #avatar img.gravatar { width: 24px; height: auto; }
 table.note_data td.avatar { padding-top: 4px; }
