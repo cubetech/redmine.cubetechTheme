@@ -3,7 +3,7 @@
 @import url(./fonts.css);
 
 body,
-input { font-family: 'HelveticaNeueW01-55Roma'; font-size: 13px; }
+input { font-family: 'HelveticaNeueW01-55Roma'; font-size: 13px; font-weight: normal !important; }
 #main { margin: 10px; }
 #footer { margin-top: 25px; }
 
@@ -11,7 +11,7 @@ input { font-family: 'HelveticaNeueW01-55Roma'; font-size: 13px; }
 #header h1 a.ancestor { font-size: 14px; }
 #header h1 a.root { font-size: 15px; }
 
-h1, h2, h3, h4 { font-family: 'HelveticaNeueW01-45Ligh'; }
+h1, h2, h3, h4 { font-family: 'HelveticaNeueW01-45Ligh'; font-weight: normal !important; }
 h1 { font-size: 1.7em; }
 
 a:link, #header a, #top-menu a:hover, #main-menu ul li a:hover, #context-menu a:hover, tr.context-menu-selection a, tr.context-menu-selection a:hover { color: #c44141 !important; }
@@ -123,7 +123,7 @@ p.author { font-size: 11px; font-family:'HelveticaNeueW01-45Ligh'; }
 h4 img.gravatar { width: 16px; padding: 0; box-shadow: none; -webkit-box-shadow: none; }
 
 table.note_data td.name h4 { letter-spacing: 0px !important; }
-span.tag-label-color a, span.tag-label-color > span { font-family: 'HelveticaNeueW01-55Roma' !important; font-size: 12px; color: #444 !important; }
+span.tag-label-color a, span.tag-label-color > span { font-family: 'HelveticaNeueW01-55Roma' !important; font-size: 12px; color: #444 !important; font-weight: normal !important; }
 
 .avatar img.gravatar, #avatar img.gravatar { width: 24px; height: auto; }
 table.note_data td.avatar { padding-top: 4px; }
