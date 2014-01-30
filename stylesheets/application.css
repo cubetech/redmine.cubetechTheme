@@ -14,6 +14,9 @@ input { font-family: 'HelveticaNeueW01-55Roma'; font-size: 13px; font-weight: no
 h1, h2, h3, h4 { font-family: 'HelveticaNeueW01-45Ligh'; font-weight: normal !important; }
 h1 { font-size: 1.7em; }
 
+#content .tabs ul li a,
+.tabular label { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
+
 a:link, #header a, #top-menu a:hover, #main-menu ul li a:hover, #context-menu a:hover, tr.context-menu-selection a, tr.context-menu-selection a:hover { color: #c44141 !important; }
 a:visited, #header a:visited, tr.context-menu-selection a:visited { color: #892e2e !important; }
 a.user.locked, a.user.locked:link, a.user.locked:visited { color: #bbb; text-decoration: line-through; }
@@ -118,7 +121,7 @@ p.author { font-size: 11px; font-family:'HelveticaNeueW01-45Ligh'; }
 #history .journal ul.details { padding: 0; padding-left: 0px; font-size: 12px; }
 #history .journal ul.details li { list-style: none; }
 #history .journal ul.details li > strong { display: inline-block; width: 150px; }
-#history .journal ul.details li > i { font-family: 'HelveticaNeueW01-75Bold'; }
+#history .journal ul.details li > i { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
 
 h4 img.gravatar { width: 16px; padding: 0; box-shadow: none; -webkit-box-shadow: none; }
 
