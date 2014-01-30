@@ -1,6 +1,6 @@
 @import url(../include/stylesheets/application.css);
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-@import url(./fonts.css)
+@import url(./fonts.css);
 
 body,
 input { font-family: 'HelveticaNeueW01-55Roma'; font-size: 13px; }
