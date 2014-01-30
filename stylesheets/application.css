@@ -15,7 +15,11 @@ h1, h2, h3, h4 { font-family: 'HelveticaNeueW01-45Ligh'; font-weight: normal !im
 h1 { font-size: 1.7em; }
 
 #content .tabs ul li a,
-.tabular label { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
+.tabular label,
+strong,
+b,
+#section-subtitle,
+.rating-title { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
 
 a:link, #header a, #top-menu a:hover, #main-menu ul li a:hover, #context-menu a:hover, tr.context-menu-selection a, tr.context-menu-selection a:hover { color: #c44141 !important; }
 a:visited, #header a:visited, tr.context-menu-selection a:visited { color: #892e2e !important; }
