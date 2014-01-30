@@ -127,7 +127,7 @@ div.issue { background: #f9f9f9; }
 div.issue table img.gravatar { display: none; }
 
 div.issue div.subject h3 { font-size: 2em; margin-bottom: -14px; margin-top: -3px; }
-div.issue img.gravatar { margin-right: 14px; width: 40px; }
+div.issue img.gravatar { margin-right: 14px; width: 40px; height: auto; }
 p.author { font-size: 11px; font-family:'HelveticaNeueW01-45Ligh'; }
 
 #history .journal ul.details { padding: 0; padding-left: 0px; font-size: 12px; }
@@ -135,7 +135,7 @@ p.author { font-size: 11px; font-family:'HelveticaNeueW01-45Ligh'; }
 #history .journal ul.details li > strong { display: inline-block; width: 150px; }
 #history .journal ul.details li > i { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
 
-h4 img.gravatar { width: 16px; padding: 0; box-shadow: none; -webkit-box-shadow: none; }
+h4 img.gravatar { width: 16px; padding: 0; box-shadow: none; -webkit-box-shadow: none; height: auto; }
 
 table.note_data td.name h4 { letter-spacing: 0px !important; }
 span.tag-label-color a, span.tag-label-color > span { font-family: 'HelveticaNeueW01-55Roma' !important; font-size: 12px; color: #444 !important; font-weight: normal !important; }
