@@ -68,6 +68,9 @@ div#content > h2, div#content h2.contacts_header, div#content > div.filters h2, 
 .icon-email:before { content: "\f045"; }
 .icon-add-deal:before { content: "\f0d6"; }
 .icon-company-contact:before { content: "\f007"; }
+.icon-money-dollar:before { content: "\f155"; }
+.icon-date:before { content: "\f073"; }
+.icon-rosette:before { content: "\f091"; }
 #edit_tags_link:before { content: "\f02b"; }
 fieldset.collapsible.collapsed>legend:before { content: "\f0da"; font-family: FontAwesome; margin-right: 4px; width: 7px; display: inline-block; text-align: center; }
 fieldset.collapsible>legend:before { content: "\f0d7"; font-family: FontAwesome; margin-right: 4px; width: 7px; display: inline-block; text-align: center; }
@@ -81,7 +84,7 @@ span a.csv:before, span a.xls:before { content: "\f0ce"; }
 span a.vcf:before { content: "\f0c0"; }
 span a.pdf:before { content: "\f0f6"; }
 
-.icon-add-deal, .icon-company-contact { background-image: none !important; }
+.icon-add-deal, .icon-company-contact, .icon-money-dollar, .icon-date, .icon-rosette { background-image: none !important; }
 
 #admin-menu a:before, #admin-menu a:hover:before { font-family: FontAwesome; margin-right: 5px; text-decoration: none !important; width: 15px; display: inline-block; text-align: center; }
 #admin-menu a, #admin-menu a.selected { background: none !important; padding-left: 0 !important; }
@@ -129,7 +132,9 @@ tr.odd.priority-highest td, tr.even.priority-highest td { border-color: #e5d0d0;
 div.issue { background: #f9f9f9; }
 div.issue table img.gravatar { display: none; }
 
-div.issue div.subject h3 { font-size: 2em; margin-bottom: -14px; margin-top: -3px; }
+div.issue div.subject h3,
+div.deal td.name h1 { font-size: 2em; margin-bottom: -14px; margin-top: -3px; }
+div.deal td.name h1 { margin-bottom: -3px; }
 div.issue img.gravatar { margin-right: 14px; width: 40px; height: auto; }
 p.author { font-size: 11px; font-family:'HelveticaNeueW01-45Ligh'; }
 
@@ -159,3 +164,10 @@ table.contacts.index tbody tr.context-menu-selection, table.contacts.index tbody
 div#content > div.flash { position: static; border-radius: 0px !important; -webkit-border-radius: 0px !important; margin-top: -6px; text-shadow: none; background-color: #DDEBBA; background-image: none; padding-left: 20px; }
 
 #content .tabs ul li a:hover { background-color: #f0f0f0; }
+
+#content div.deal { background-color: #f9f9f9; }
+#content table.subject_header td.avatar { width: 30px; }
+#content table.subject_header td.subject_info li { display: inline-block; width: 100%; font-family: 'HelveticaNeueW01-45Ligh'; font-size: 16px; }
+.icon-money-dollar:before, .icon-date:before, .icon-rosette:before { text-align: left; width: 20px; }
+table.subject_header td.subject_info ul { margin: 0; }
+#note_attributes .wiki-edit { padding-left: 0; padding-right: 0; margin-top: 20px; width: 100%; }
