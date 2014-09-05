@@ -1,6 +1,7 @@
 @import url(../include/stylesheets/application.css);
 @import url(./font-awesome.css);
 @import url(./fonts.css);
+@import url(./select2.css);
 
 body,
 input { font-family: 'HelveticaNeueW01-55Roma'; font-size: 13px; font-weight: normal !important; }
