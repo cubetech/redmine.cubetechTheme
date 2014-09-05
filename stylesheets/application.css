@@ -172,3 +172,5 @@ div#content > div.flash { position: static; border-radius: 0px !important; -webk
 .icon-money-dollar:before, .icon-date:before, .icon-rosette:before { text-align: left; width: 20px; }
 table.subject_header td.subject_info ul { margin: 0; }
 #note_attributes .wiki-edit { padding-left: 0; padding-right: 0; margin-top: 20px; width: 100%; }
+
+#project_quick_jump_box { width: 400px; }
