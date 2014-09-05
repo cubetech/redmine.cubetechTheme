@@ -45,7 +45,7 @@ break}}},highlight:function(b){var d,e,c=this.findHighlightableChoices();return 
         formatSelectionTooBig: function (limit) { return "Sie können nur " + limit + " Eintr" + (limit === 1 ? "ag" : "äge") + " auswählen"; },
         formatLoadMore: function (pageNumber) { return "Lade mehr Ergebnisse…"; },
         formatSearching: function () { return "Suche…"; },
-        formatMatches: function (matches) { return matches + " Ergebnis " + (matches > 1 ? "se" : "") + " verfügbar, zum Navigieren die Hoch-/Runter-Pfeiltasten verwenden."; }
+        formatMatches: function (matches) { return matches + " Ergebnis" + (matches > 1 ? "se" : "") + " verfügbar, zum Navigieren die Hoch-/Runter-Pfeiltasten verwenden."; }
     };
 
     $.extend($.fn.select2.defaults, $.fn.select2.locales['de']);
