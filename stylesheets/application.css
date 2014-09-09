@@ -35,6 +35,8 @@ table.plugins span.name,
 #header,
 #top-menu { font-family: 'Frutiger'; font-weight: bold; }
 
+fieldset.collapsible { font-size: 13px; }
+
 a:link, #header a, #top-menu a:hover, #main-menu ul li a:hover, #context-menu a:hover, tr.context-menu-selection a, tr.context-menu-selection a:hover { color: #c44141 !important; }
 a:visited, #header a:visited, tr.context-menu-selection a:visited { color: #892e2e !important; }
 a.user.locked, a.user.locked:link, a.user.locked:visited { color: #bbb; text-decoration: line-through; }
