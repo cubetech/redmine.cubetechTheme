@@ -173,4 +173,5 @@ div#content > div.flash { position: static; border-radius: 0px !important; -webk
 table.subject_header td.subject_info ul { margin: 0; }
 #note_attributes .wiki-edit { padding-left: 0; padding-right: 0; margin-top: 20px; width: 100%; }
 
-#project_quick_jump_box { width: 400px; }
+#project_quick_jump_box,
+.select2-drop-mask, .select2-container { width: 400px !important; }
