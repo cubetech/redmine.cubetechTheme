@@ -33,7 +33,8 @@ table.list tbody tr.odd.priority-highest:hover,
 table.plugins span.name,
 #login-form label,
 #header,
-#top-menu { font-family: 'Frutiger'; font-weight: bold; }
+#top-menu,
+#projects-index ul.projects div.root a.project { font-family: 'Frutiger'; font-weight: bold; }
 
 fieldset.collapsible { font-size: 13px; }
 
@@ -53,13 +54,13 @@ table.contacts.index tr.context-menu-selection h2 div, table.contacts.index tr.c
 
 div#content > h2, div#content h2.contacts_header, div#content > div.filters h2, div#content > #add-news > h2, div#content > #add-message > h2, div#content > #add-document > h2 { background-color: #f2f2f2; border-bottom: 1px solid #ecd8d8; }
 
-[class^="icon-"]:before, [class*=" icon-"]:before, .issues.box > h3:before, .members.box > h3:before { font-family: FontAwesome; margin-left: -18px; margin-right: 3px; text-decoration: none !important; background-image: none !important; width: 15px; text-align: center; }
+[class^="icon-"]:before, [class*=" icon-"]:before, .issues.box > h3:before, .members.box > h3:before, .my-project:before { font-family: FontAwesome; margin-left: -18px; margin-right: 3px; text-decoration: none !important; background-image: none !important; width: 15px; text-align: center; }
 
 #content > .contextual > a { margin-left: 10px; background-image: none !important; }
 .icon-vcard { background-image: none !important; display: block; margin-bottom: 15px; }
 
-.issues.box > h3 , .members.box{ background-image: none !important; }
-.icon-vcard:before, .issues.box > h3:before, .members.box > h3:before { margin-right: 7px; }
+.issues.box > h3, .members.box, .my-project { background-image: none !important; }
+.icon-vcard:before, .issues.box > h3:before, .members.box > h3:before, .subject_info li:before { margin-right: 7px; }
 
 .icon-add:before { content: "\f067"; }
 .icon-time-add:before { content: "\f017"; }
@@ -81,7 +82,9 @@ div#content > h2, div#content h2.contacts_header, div#content > div.filters h2, 
 .icon-date:before { content: "\f073"; }
 .icon-rosette:before { content: "\f091"; }
 .icon-vcard:before { content: "\f183"; }
+.icon-duplicate:before { content: "\f079"; }
 .issues.box > h3:before { content: "\f145"; }
+.my-project:before { content: "\f005"; }
 .members.box > h3:before { content: "\f005"; }
 #edit_tags_link:before { content: "\f02b"; }
 fieldset.collapsible.collapsed>legend:before { content: "\f0da"; font-family: FontAwesome; margin-right: 4px; width: 7px; display: inline-block; text-align: center; }
