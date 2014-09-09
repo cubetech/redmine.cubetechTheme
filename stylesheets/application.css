@@ -108,6 +108,7 @@ span a.pdf:before { content: "\f0f6"; }
 #admin-menu a.plugins:before { content: "\f12e"; }
 #admin-menu a.info:before { content: "\f128"; }
 #admin-menu a.reddrop:before { content: "\f16b"; }
+#admin-menu a.agile:before { content: "\f16c"; }
 
 input.autocomplete { background-image: url(../images/icon-search.png); background-position: 3px; }
 .live_search input.live_search_field { border-radius: 2px; -webkit-border-radius: 2px; margin-top: 0px; margin-left: 30px; }
