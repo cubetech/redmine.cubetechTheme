@@ -79,7 +79,7 @@ div#content > h2, div#content h2.contacts_header, div#content > div.filters h2, 
 .icon-date:before { content: "\f073"; }
 .icon-rosette:before { content: "\f091"; }
 .icon-vcard:before { content: "\f183"; }
-.issues.box > h3 { content: "\f145"; }
+.issues.box > h3:before { content: "\f145"; }
 #edit_tags_link:before { content: "\f02b"; }
 fieldset.collapsible.collapsed>legend:before { content: "\f0da"; font-family: FontAwesome; margin-right: 4px; width: 7px; display: inline-block; text-align: center; }
 fieldset.collapsible>legend:before { content: "\f0d7"; font-family: FontAwesome; margin-right: 4px; width: 7px; display: inline-block; text-align: center; }
