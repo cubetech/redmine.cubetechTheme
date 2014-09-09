@@ -197,4 +197,4 @@ table.subject_header td.subject_info ul { margin: 0; }
 
 #projects-index ul.projects ul.projects { border-left: 1px solid #E0E0E0; }
 ul.projects.root li.root { border: none; -webkit-box-shadow: none; box-shadow: none; -moz-box-shadow: none; }
-.top-menu .help { display: none; }
+#top-menu .help { display: none; }
