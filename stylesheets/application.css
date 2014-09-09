@@ -194,3 +194,5 @@ table.subject_header td.subject_info ul { margin: 0; }
 
 #content .tooltip span.tip.contact { line-height: 15px !important; font-size: 12px !important; }
 #content .tooltip span.tip.contact > a { font-size: 13px !important; font-weight: bold; }
+
+#projects-index ul.projects ul.projects { border-left: 1px solid #E0E0E0; }
