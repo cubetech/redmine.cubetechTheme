@@ -55,7 +55,7 @@ div#content > h2, div#content h2.contacts_header, div#content > div.filters h2, 
 
 [class^="icon-"]:before, [class*=" icon-"]:before { font-family: FontAwesome; margin-left: -18px; margin-right: 3px; text-decoration: none !important; background-image: none !important; width: 15px; text-align: center; }
 
-#content > .contextual > a { margin-left: 10px; background-image: none !important; }
+#content > .contextual > a, .icon-vcard { margin-left: 10px; background-image: none !important; }
 
 .icon-add:before { content: "\f067"; }
 .icon-time-add:before { content: "\f017"; }
@@ -76,6 +76,7 @@ div#content > h2, div#content h2.contacts_header, div#content > div.filters h2, 
 .icon-money-dollar:before { content: "\f155"; }
 .icon-date:before { content: "\f073"; }
 .icon-rosette:before { content: "\f091"; }
+.icon-vcard:before { content: "\f183"; }
 #edit_tags_link:before { content: "\f02b"; }
 fieldset.collapsible.collapsed>legend:before { content: "\f0da"; font-family: FontAwesome; margin-right: 4px; width: 7px; display: inline-block; text-align: center; }
 fieldset.collapsible>legend:before { content: "\f0d7"; font-family: FontAwesome; margin-right: 4px; width: 7px; display: inline-block; text-align: center; }
@@ -91,7 +92,7 @@ span a.pdf:before { content: "\f0f6"; }
 
 .icon-add-deal, .icon-company-contact, .icon-money-dollar, .icon-date, .icon-rosette { background-image: none !important; }
 
-#admin-menu a:before, #admin-menu a:hover:before { font-family: FontAwesome; margin-right: 5px; text-decoration: none !important; width: 15px; display: inline-block; text-align: center; }
+#admin-menu a:before, #admin-menu a:hover:before, { font-family: FontAwesome; margin-right: 5px; text-decoration: none !important; width: 15px; display: inline-block; text-align: center; }
 #admin-menu a, #admin-menu a.selected { background: none !important; padding-left: 0 !important; }
 #admin-menu a.projects:before { content: "\f0ae"; }
 #admin-menu a.users:before { content: "\f007"; }
