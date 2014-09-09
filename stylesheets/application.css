@@ -53,7 +53,7 @@ table.contacts.index tr.context-menu-selection h2 div, table.contacts.index tr.c
 
 div#content > h2, div#content h2.contacts_header, div#content > div.filters h2, div#content > #add-news > h2, div#content > #add-message > h2, div#content > #add-document > h2 { background-color: #f2f2f2; border-bottom: 1px solid #ecd8d8; }
 
-[class^="icon-"]:before, [class*=" icon-"]:before, .issues.box > h3 { font-family: FontAwesome; margin-left: -18px; margin-right: 3px; text-decoration: none !important; background-image: none !important; width: 15px; text-align: center; }
+[class^="icon-"]:before, [class*=" icon-"]:before, .issues.box > h3:before { font-family: FontAwesome; margin-left: -18px; margin-right: 3px; text-decoration: none !important; background-image: none !important; width: 15px; text-align: center; }
 
 #content > .contextual > a { margin-left: 10px; background-image: none !important; }
 .icon-vcard { background-image: none !important; display: block; margin-bottom: 15px; }
