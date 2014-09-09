@@ -97,7 +97,7 @@ span a.pdf:before { content: "\f0f6"; }
 
 .icon-add-deal, .icon-company-contact, .icon-money-dollar, .icon-date, .icon-rosette { background-image: none !important; }
 
-#admin-menu a:before, #admin-menu a:hover:before, { font-family: FontAwesome; margin-right: 5px; text-decoration: none !important; width: 15px; display: inline-block; text-align: center; }
+#admin-menu a:before, #admin-menu a:hover:before { font-family: FontAwesome; margin-right: 5px; text-decoration: none !important; width: 15px; display: inline-block; text-align: center; }
 #admin-menu a, #admin-menu a.selected { background: none !important; padding-left: 0 !important; }
 #admin-menu a.projects:before { content: "\f0ae"; }
 #admin-menu a.users:before { content: "\f007"; }
