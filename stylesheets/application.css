@@ -4,7 +4,7 @@
 @import url(./select2.css);
 
 body,
-input { font-family: 'HelveticaNeueW01-55Roma'; font-size: 13px; font-weight: normal !important; }
+input { font-family: 'Frutiger'; font-size: 13px; font-weight: normal !important; }
 #main { margin: 10px; }
 #footer { margin-top: 25px; }
 
@@ -12,7 +12,7 @@ input { font-family: 'HelveticaNeueW01-55Roma'; font-size: 13px; font-weight: no
 #header h1 a.ancestor { font-size: 14px; }
 #header h1 a.root { font-size: 15px; }
 
-h1, h2, h3, h4 { font-family: 'HelveticaNeueW01-45Ligh'; font-weight: normal !important; }
+h1, h2, h3, h4 { font-family: 'Frutiger'; font-weight: normal !important; }
 h1 { font-size: 1.7em; }
 
 #content .tabs ul li a,
@@ -31,7 +31,7 @@ table.list tbody tr.odd.priority-highest:hover,
 .total-hours,
 #sidebar a.selected,
 table.plugins span.name,
-#login-form label { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
+#login-form label { font-family: 'Frutiger'; font-weight: bold; }
 
 a:link, #header a, #top-menu a:hover, #main-menu ul li a:hover, #context-menu a:hover, tr.context-menu-selection a, tr.context-menu-selection a:hover { color: #c44141 !important; }
 a:visited, #header a:visited, tr.context-menu-selection a:visited { color: #892e2e !important; }
@@ -137,17 +137,17 @@ div.issue div.subject h3,
 div.deal td.name h1 { font-size: 2em; margin-bottom: -14px; margin-top: -3px; }
 div.deal td.name h1 { margin-bottom: -3px; }
 div.issue img.gravatar { margin-right: 14px; width: 40px; height: auto; }
-p.author { font-size: 11px; font-family:'HelveticaNeueW01-45Ligh'; }
+p.author { font-size: 11px; font-family: 'Frutiger'; }
 
 #history .journal ul.details { padding: 0; padding-left: 0px; font-size: 12px; }
 #history .journal ul.details li { list-style: none; }
 #history .journal ul.details li > strong { display: inline-block; width: 150px; }
-#history .journal ul.details li > i { font-family: 'HelveticaNeueW01-75Bold'; font-weight: normal !important; }
+#history .journal ul.details li > i { font-family: 'Frutiger'; font-weight: bold !important; }
 
 h4 img.gravatar { width: 16px; padding: 0; box-shadow: none; -webkit-box-shadow: none; height: auto; }
 
 table.note_data td.name h4 { letter-spacing: 0px !important; }
-span.tag-label-color a, span.tag-label-color > span { font-family: 'HelveticaNeueW01-55Roma' !important; font-size: 12px; color: #444 !important; font-weight: normal !important; }
+span.tag-label-color a, span.tag-label-color > span { font-family: 'Frutiger' !important; font-size: 12px; color: #444 !important; font-weight: normal !important; }
 
 .avatar img.gravatar, #avatar img.gravatar { width: 24px; height: auto; }
 table.note_data td.avatar { padding-top: 4px; }
@@ -168,7 +168,7 @@ div#content > div.flash { position: static; border-radius: 0px !important; -webk
 
 #content div.deal { background-color: #f9f9f9; }
 #content table.subject_header td.avatar { width: 30px; }
-#content table.subject_header td.subject_info li { display: inline-block; width: 100%; font-family: 'HelveticaNeueW01-45Ligh'; font-size: 16px; }
+#content table.subject_header td.subject_info li { display: inline-block; width: 100%; font-family: 'Frutiger'; font-size: 16px; }
 .icon-money-dollar:before, .icon-date:before, .icon-rosette:before { text-align: left; width: 20px; }
 table.subject_header td.subject_info ul { margin: 0; }
 #note_attributes .wiki-edit { padding-left: 0; padding-right: 0; margin-top: 20px; width: 100%; }
