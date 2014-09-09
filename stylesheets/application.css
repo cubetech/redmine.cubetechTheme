@@ -57,7 +57,8 @@ div#content > h2, div#content h2.contacts_header, div#content > div.filters h2, 
 
 #content > .contextual > a { margin-left: 10px; background-image: none !important; }
 .icon-vcard { background-image: none !important; display: block; margin-bottom: 15px; }
-.issues.box > h3 { background-image: none !important; }
+
+.issues.box > h3 , .members.box{ background-image: none !important; }
 .icon-vcard:before, .issues.box > h3:before, .members.box > h3:before { margin-right: 7px; }
 
 .icon-add:before { content: "\f067"; }
@@ -188,4 +189,5 @@ table.subject_header td.subject_info ul { margin: 0; }
 #project_quick_jump_box,
 .select2-drop-mask, .select2-container { width: 400px !important; }
 
-.tooltip span.tip.contact { line-height: 15px !important; font-size: 12px !important; }
+#content .tooltip span.tip.contact { line-height: 15px !important; font-size: 12px !important; }
+#content .tooltip span.tip.contact a:first-child { font-size: 13px !important; font-weight: bold; }
