@@ -204,3 +204,5 @@ ul.projects.root li.root { border: none; -webkit-box-shadow: none; box-shadow: n
 
 .action-edit.controller-wiki div#content p.breadcrumb { margin: 4px 0 12px 2px; }
 .controller-wiki div#content p.breadcrumb { margin: 4px 0 -8px 2px; }
+
+div.members h3 { background: none; }
