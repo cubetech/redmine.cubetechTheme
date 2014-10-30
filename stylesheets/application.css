@@ -201,3 +201,6 @@ ul.projects.root li.root { border: none; -webkit-box-shadow: none; box-shadow: n
 
 .select2-drop-active { height: 80%; overflow: hidden; }
 .select2-results { max-height: 100%; padding-bottom: 33px; box-sizing: border-box; }
+
+.action-edit.controller-wiki div#content p.breadcrumb { margin: 4px 0 12px 2px; }
+.controller-wiki div#content p.breadcrumb { margin: 4px 0 -8px 2px; }
