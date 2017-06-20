@@ -208,3 +208,12 @@ ul.projects.root li.root { border: none; -webkit-box-shadow: none; box-shadow: n
 .controller-wiki div#content p.breadcrumb { margin: 4px 0 -8px 2px; }
 
 div.members h3 { background: none; }
+
+/* mhm 20.6.2017 */ 
+div.wiki code {
+	display: inline-block;
+	background: #fafafa;
+	border: 1px solid #e2e2e2;
+	padding: 0 2px;
+	white-space: nowrap;
+}
