@@ -80,7 +80,9 @@ div#content > h2, div#content h2.contacts_header, div#content > div.filters h2, 
 .icon-email:before { content: "\f045"; }
 .icon-add-deal:before { content: "\f0d6"; }
 .icon-company-contact:before { content: "\f007"; }
-.icon-money-dollar:before { content: "\f155"; }
+.icon-money-dollar:before { content: "\f0d6"; }
+.icon-invoice-public-link:before { content: "\f0c1"; }
+.icon-money-euro:before { content: "\f0d6"; }
 .icon-date:before { content: "\f073"; }
 .icon-rosette:before { content: "\f091"; }
 .icon-vcard:before { content: "\f183"; }
@@ -101,7 +103,7 @@ span a.csv:before, span a.xls:before { content: "\f0ce"; }
 span a.vcf:before { content: "\f0c0"; }
 span a.pdf:before { content: "\f0f6"; }
 
-.icon-add-deal, .icon-company-contact, .icon-money-dollar, .icon-date, .icon-rosette { background-image: none !important; }
+.icon-add-deal, .icon-company-contact, .icon-money-dollar, .icon-invoice-public-link, .icon-date, .icon-rosette, .icon-money-euro { background-image: none !important; }
 
 #admin-menu a:before, #admin-menu a:hover:before { font-family: FontAwesome; margin-right: 5px; text-decoration: none !important; width: 15px; display: inline-block; text-align: center; }
 #admin-menu a, #admin-menu a.selected { background: none !important; padding-left: 0 !important; }
@@ -187,7 +189,7 @@ div#content > div.flash { position: static; border-radius: 0px !important; -webk
 #content div.deal { background-color: #f9f9f9; }
 #content table.subject_header td.avatar { width: 30px; }
 #content table.subject_header td.subject_info li { display: inline-block; width: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 'Frutiger', Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 16px; }
-.icon-money-dollar:before, .icon-date:before, .icon-rosette:before { text-align: left; width: 20px; }
+.icon-money-dollar:before, .icon-invoice-public-link:before, .icon-money-euro:before, .icon-date:before, .icon-rosette:before { text-align: left; width: 20px; }
 table.subject_header td.subject_info ul { margin: 0; }
 #note_attributes .wiki-edit { padding-left: 0; padding-right: 0; margin-top: 20px; width: 100%; }
 
